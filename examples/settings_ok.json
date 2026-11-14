@@ -1,0 +1,22 @@
+{
+  "l_current_max": 40,
+  "l_current_min": -40,
+  "l_abs_current_max": 60,
+  "l_in_current_max": 30,
+  "l_in_current_min": -10,
+  "l_watt_max": 1500,
+  "l_watt_min": -1500,
+  "l_min_vin": 36,
+  "l_max_vin": 60,
+  "l_battery_cut_start": 42,
+  "l_battery_cut_end": 39,
+  "l_temp_fet_start": 70,
+  "l_temp_fet_end": 85,
+  "l_temp_motor_start": 80,
+  "l_temp_motor_end": 100,
+  "l_max_erpm": 50000,
+  "l_min_erpm": -50000,
+  "si_motor_poles": 14,
+  "motor_type": 2,
+  "sensor_mode": 0
+}

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esc-config-helper"
+version = "0.1.0"
+description = "Plain-language notes, sanity checks, and a read-only probe for VESC motor controller settings. Unofficial."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.optional-dependencies]
+serial = ["pyserial>=3.5"]
+
+[project.scripts]
+esc-helper = "esc_config_helper.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
